@@ -67,7 +67,7 @@ while carryOn:
     # Check for paddle and ball collision and change the ball direction if they collided
     if paddle.collidepoint(ball.x, ball.y):
         bally = -bally
-    # Draw red, orange, yellow bricks on screen 
+    # Draw red bricks on screen 
     for i in bricksR:
         pygame.draw.rect(screen,RED,i)
         
